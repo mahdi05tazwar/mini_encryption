@@ -1,4 +1,4 @@
-#MINI ENCRYPTION
+# MINI ENCRYPTION
 
 
 **Version 0.0.1**
@@ -6,16 +6,18 @@
 
 This is a simple program that encrypts texts/text files and also decrypts 'em. All you need to do is, call the "crypt" function and pass text in the form of a list (each character should be a separate element, in the correct order) into it, then another variable which has the value 0. If you want to encrypt a text file, just use the file management functions of python to store every character into a list, in the correct order. In case you find the instructions confusing, I'll leave examples below.
 
-#TO IMPORT:
+# TO IMPORT:
 from mini_encrypt import crypt
 
-#Calling function: 
+# Calling function: 
 count = 0
 crypt1 = crypt(list, count)
 
-#List: If you want to encrypt your name (e.g. Mahdi Tazwar; it's my name), then you need to have a list that looks like this: ['M', 'a', 'h', 'd', 'i', ' ', 'T', 'a', 'z', 'w', 'a', 'r']
+# List: 
+If you want to encrypt your name (e.g. Mahdi Tazwar; it's my name), then you need to have a list that looks like this: ['M', 'a', 'h', 'd', 'i', ' ', 'T', 'a', 'z', 'w', 'a', 'r']
 
-#File: The following code shows how to encrypt a file. It's not compulsory that you can use this method only, but I find it pretty easy.
+# File: 
+The following code shows how to encrypt a file. It's not compulsory that you can use this method only, but I find it pretty easy.
 
 filename = input("Enter file name") #Or just directly enter it 
 text = []
@@ -28,7 +30,7 @@ char = file.read(1)
 file.close()
 
 
-#LICENSE
+# LICENSE
 
 Copyright 2022 Mahdi Tazwar Raeed
 
